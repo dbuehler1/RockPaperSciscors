@@ -1,0 +1,15 @@
+fieldset {
+    margin-right: auto;
+    margin-left: auto;
+    width: 520px;
+}
+button{
+    margin-left: 40px;
+}
+h1, h2, h3{
+    text-align: center;
+    alignment: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
