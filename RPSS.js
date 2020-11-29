@@ -1,9 +1,9 @@
 $(document).ready(function () {
-    $("#btnRock").click(Rock);
-    $("#btnPaper").click(Paper);
-    $("#btnScissors").click(Scissors);
-    $("#btnLizard").click(Lizard);
-    $("#btnSpock").click(Spock);
+    $("#rock").click(Rock);
+    $("#paper").click(Paper);
+    $("#scissors").click(Scissors);
+    $("#lizard").click(Lizard);
+    $("#spock").click(Spock);
 
     var userScore = 0;
     var aiScore = 0;
@@ -33,7 +33,7 @@ $(document).ready(function () {
     }
     function AIChoice(){
 
-        if(aiScore >= 3 || userScore >= 3){
+        if(aiScore >= 2 || userScore >= 2){
 
         }
         else{
